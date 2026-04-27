@@ -86,19 +86,19 @@ def main():
     count_tokens(tokens)
 
     # 2. Context meaning example
-    #compare_context_examples()
+    compare_context_examples()
 
     # 3. Attention intuition demo
-    #attention_intuition_demo()
+    attention_intuition_demo()
 
     # 4. Hands-on: Try your own sentence
-    # print("\n--- Hands-On: Try Your Own ---")
-    # user_text = "The bat flew at night. He swung the bat at the ball."
-    # print(f"\nYour sample text:\n{user_text}")
-    # cleaned_user = clean_text(user_text)
-    # tokens_user = tokenize_text(cleaned_user)
-    # count_tokens(tokens_user)
-    # print("\nTry changing 'user_text' to your own sentence and rerun this section!")
+    print("\n--- Hands-On: Try Your Own ---")
+    user_text = "The bat flew at night. He swung the bat at the ball."
+    print(f"\nYour sample text:\n{user_text}")
+    cleaned_user = clean_text(user_text)
+    tokens_user = tokenize_text(cleaned_user)
+    count_tokens(tokens_user)
+    print("\nTry changing 'user_text' to your own sentence and rerun this section!")
 
 if __name__ == "__main__":
     main()
